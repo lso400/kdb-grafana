@@ -33,9 +33,9 @@ Useful variables:
   
   
 ##### Features
-1. Received metrics will be sotred in `gf.timeserie` and will be appended to date-partitioned `timeserie` when `.gf.end[]` is called
+1. Received metrics will be stored in `gf.timeserie` and will be appended to date-partitioned `timeserie` when `.gf.end[]` is called
 2. Support wildcard in grafana metric selection (e.g. `rdb.*`)
-3. Support aggregation (e.g. `rdb.*.count). Supported aggregation can be found in `.gf.agg`
+3. Support aggregation (e.g. `rdb.*.count`). Supported aggregations can be found in `.gf.agg`
 
 ##### Demo
 <img src="demo.png">
